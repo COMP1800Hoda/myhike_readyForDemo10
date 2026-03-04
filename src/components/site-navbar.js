@@ -13,10 +13,10 @@ class SiteNavbar extends HTMLElement {
     renderNavbar() {
         this.innerHTML = `
             <!-- Navbar: single source of truth -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/">
-                        <img src="/images/hikelogo.png" height="36">
+                        <img src="/images/image.jpg" height="36">
                         HodaHikes
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
